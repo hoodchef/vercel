@@ -15,3 +15,4 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           working-directory: apps/web
           prod: true
+          vercel-args: --yes
